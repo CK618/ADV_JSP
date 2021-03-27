@@ -17,8 +17,10 @@ public void jspDestroy(){
 	<title>JSP Practice</title>
 </head>
 <body>
+     <!-- template text -->
 	<h1>Wellocome to JSP World</h1>
 	<%-- exptession tag use --%>
+	<!-- Java Code/ Dynamic Code -->
 	<h4>Currect date and time:<%= new Date() %></h4>
 	<%
 		sayHello(out);
